@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peterson's Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="opr.css">
+    <link rel="stylesheet" href="ps.css">
+    <link rel="stylesheet" href="peterson.css">
+</head>
+<body>
+     <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="peterson.html">Peterson's Solution</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="peterson_about.html">About</a></li>
+          <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="priority.html">Priority Scheduling</a></li>
+              <li><a href="peterson.html">Peterson's Solution</a></li>
+              <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+              <li><a href="optimal.html">Optimal Page Replacement</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="peterson_sim.html" >Simulate</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  <hr>
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up"><span>Peterson's</span> Solution</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400"> Peterson's solution is a classic solution to the critical section problem. The critical section problem ensures that no two processes change or modify a resource's value simultaneously.The section in which the values are being modified is called the critical section. There are three sections except for the critical sections: the entry section,exit section, and the reminder section. Peterson's Solution is an example of DeadLock Occurrency. </h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="peterson_sim.html" class="btn-get-started scrollto" style="font-weight: 650;">Simulate</a>
+            <a href="peterson_about.html" class="btn-get-started scrollto" style="font-weight: 650;">Know More</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="peterson_home.jpg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <script src="peterson.js"></script>
+</body>
+</html>

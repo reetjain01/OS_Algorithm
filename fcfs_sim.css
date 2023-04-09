@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.simulation .container {
+    /* border: 2px solid red; */
+    height: 1000px;
+}
+
+.simulation .container .form{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color:  rgb(116, 199, 254,0.3);
+    height: 280px;
+    border-radius: 25px;
+}
+
+.simulation .container .table{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 100px;
+    margin-left: 40%;
+    padding-top: 25px;
+}
+
+
+
+.simulation .container .table table , td ,tr{
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.simulation .container .graph{
+    /* border: 2px solid red; */
+    width: 55%;
+    margin-left: 25.5%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.simulation .container .box{
+    /* border: 2px solid red; */
+    height: 600px;
+}
+
+.simulation .container .box h4{
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.simulation .container .box #myChart{
+    /* margin-top: 15px; */
+    width: 95%;
+    
+    border: 2px solid grey;
+    box-shadow: 2px 3px  black;
+}
+
+.simulation .container .box .table table{
+    margin-top: 5%;
+}

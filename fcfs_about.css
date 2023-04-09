@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin-left: 62%;
+    width: 32%;
+}
+
+.info .left .ad{
+    width: 95%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 2.5%;
+    color: black;
+}

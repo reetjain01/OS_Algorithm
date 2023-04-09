@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peterson's Solution - About</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="opr_sim.css"> -->
+    <link rel="stylesheet" href="opr_about.css">
+    <link rel="stylesheet" href="ps_about.css">
+    <link rel="stylesheet" href="peterson_about.css">
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="peterson_about.html">Peterson's Solution - About</a></h1>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="peterson.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="peterson_about.html">About</a></li>
+              <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="priority.html">Priority Scheduling</a></li>
+                  <li><a href="peterson.html">Peterson's Solution</a></li>
+                  <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+                  <li><a href="optimal.html">Optimal Page Replacement</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="peterson_sim.html" >Simulate</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+      </header><!-- End Header -->
+      <hr>
+
+      <section id="info" class="info">
+        <div class="left">
+            <h3>Peterson's Solution</h3>
+            <p><b>Peterson's solution</b> was proposed to resolve the critical section problem involving only two processes. This solution guarantees that it provides mutual exclusion, bounded waiting, and progress of the processes.
+                <br><br>
+                For example, let int a=5, and there are two processes p1 and p2 that can modify the value of a. p1 adds 2 to a a=a+2 and p2 multiplies a with 2, a=a*2. If both processes modify the value of a at the same time, then a value depends on the order of execution of the process. If p1 executes first, a will be 14; if p2 executes first, a will be 12. This change of values due to access by two processes at a time is the cause of the critical section problem
+                <br><br>
+                The section in which the values are being modified is called the critical section. There are three sections except for the critical sections: the entry section,exit section, and the reminder section.The process entering the critical region must pass the entry region in which they request entry to the critical section.The process exiting the critical section must pass the exit region.The remaining code left after execution is in the remainder section.
+            </p>
+            <div class="ad">
+                <h4>Advantages</h4>
+                <p>Peterson's Solution Algorithm consists following advantages :
+                <ul>
+                   <li>Peterson's solution allows multiple processes to share and access a resource without conflict between the resources.</li>
+                   <li>Every process gets a chance of execution.</li> 
+                    <li>It is simple to implement and uses simple and powerful logic    </li> 
+                    <li>It can be used in any hardware as it is completely software dependent and executed in the user mode</li> 
+                    <li>Prevents the possibility of a deadlock.</li> 
+                </ul>
+                </p>
+            </div>
+            <div class="dis">
+                <h4>Dis-Advantages</h4>
+                <p>Peterson's Solution Algorithm consists following disadvantages : 
+                    <ul>
+                  <li>The process may take a long time to wait for the other processes to come out of the critical region. It is termed as Busy waiting.</li> 
+                   <li>This algorithm may not work on systems having multiple CPUs.</li>
+                   <li>The Peterson solution is restricted to only two processes at a time.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="peterson_about_info.jpg" alt="">
+        </div>
+  </section>
+
+
+  <script src="ps.js"></script>
+</body>
+</html>

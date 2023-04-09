@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal Page Replacement - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="opr_sim.css">
+    <link rel="stylesheet" href="opr_about.css">
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="optimal_about.html">OPR - About</a></h1>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="optimal.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="optimal_about.html">About</a></li>
+              <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="priority.html">Priority Scheduling</a></li>
+                  <li><a href="peterson.html">Peterson's Solution</a></li>
+                  <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+                  <li><a href="optimal.html">Optimal Page Replacement</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="optimal_sim.html" >Simulate</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+      </header><!-- End Header -->
+      <hr>
+
+      <section id="info" class="info">
+            <div class="left">
+                <h3>Optimal Page Replacement</h3>
+                <p>As we know, when a process is executed in our system, the operating system divides this process into small parts known as 'pages'. And these pages are loaded into secondary memory known as RAMs. Also, the secondary memory is divided into several frames in which the pages are loaded. The size of the page is always equal to the size of the frames. When a system calls a page and it is not available in the frame, "page fault" occurs. The optimal page replacement algorithm is used to reduce these page faults. It uses the principle that- <b>"when a page is called by the system and it is not available in the frames, the frame which is not in demand for the longest future time is replaced by the new page".</b> </p>
+                <div class="ad">
+                    <h4>Advantages</h4>
+                    <p>In this algorithm, only those pages are replaced that are not be utilized for the longest time frame. It includes future knowledge, because of this capability optimal page replacement algorithm consists following advantages :
+                    <ul>
+                       <li>Least page fault occurs as this algorithm replaces the page that is not going to be used for the longest time in the future</li>
+                       <li>In this algorithm, Belady's Anomaly (the number of page faults increases when we increase the number of frames in secondary storage) does not occur because this algorithm uses a 'stack-based algorithm' for page replacement.</li> 
+                        <li>Data structure used in this algorithm is easy to understand.</li> 
+                        <li>The page that will not be in demand in the future time is replaced by a new page in the frames.</li> 
+                    </ul>
+                    </p>
+                </div>
+                <div class="dis">
+                    <h4>Dis-Advantages</h4>
+                    <p>The optimal page replacement algorithm consists some of disadvantages are as follows;
+                        <ul>
+                      <li>This algorithm is limited to some specific operating systems. All OS can not use this.
+                    </li> 
+                       <li>Detecting error in this algorithm is not so easy.</li>
+                       <li>Sometimes, the page which is used recently is replaced which takes much time.</li>
+                       <li>This algorithm is difficult to implement because the operating system can't predict the future reference strings.</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="right">
+                <img src="opr_about_info.jpg" alt="">
+            </div>
+      </section>
+
+    <script src="opr.js"></script>
+</body>
+</html>

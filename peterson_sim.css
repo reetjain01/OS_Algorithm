@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    /* border: 2px solid red; */
+    width: 35%;
+    margin-left: 2%;
+    margin-top: -0.5%;
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    margin-left: 70%;
+}
+
+.simulation{
+    /* border: 2px solid red; */
+    height: 830px;
+}
+
+.simulation .container .box{
+    border: 1px solid white;
+    height: 640px;
+    
+}
+
+.simulation .container .box .entrystate{
+    margin-top: 30px;
+    box-shadow: 3px 5px 3px 5px grey;
+    width: 30%;
+    margin-left: 35%;
+    height: 150px;
+}
+
+.simulation .container .box .entrystate h1{
+    text-align: center;
+    text-shadow: 3px 5px 10px rgb(114, 105, 105);
+}
+
+.simulation .container .box .entrystate button{
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(152, 216, 152);
+}
+
+/* Critical Section  */
+
+.simulation .container .box .criticalsection{
+    margin-top: 35px;
+    box-shadow: 3px 5px 3px 5px grey;
+    width: 30%;
+    margin-left: 35%;
+    height: 150px;
+}
+
+.simulation .container .box .criticalsection h1{
+    text-align: center;
+    text-shadow: 3px 5px 10px rgb(114, 105, 105);
+}
+
+.simulation .container .box .criticalsection button{
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(243, 90, 90);
+}
+
+/* Exit State */
+.simulation .container .box .exitstate{
+    margin-top: 35px;
+    box-shadow: 3px 5px 3px 5px grey;
+    width: 30%;
+    margin-left: 35%;
+    height: 150px;
+}
+
+.simulation .container .box .exitstate h1{
+    text-align: center;
+    text-shadow: 3px 5px 10px rgb(114, 105, 105);
+}
+
+.simulation .container .box .exitstate button{
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 15%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(152, 216, 152);
+}
+
+.simulation .container .box .exitstate a{
+    visibility: hidden;
+    position:absolute;
+    margin-top:135px;
+    margin-left:9%;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+
+
+
+

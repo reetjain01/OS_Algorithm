@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin-left: 62%;
+    width: 30%;
+}
+
+/* Simulation Section */
+
+.simulation .container{
+    /* border: 2px solid red; */
+    width: 96%;
+    margin-left: 2%;
+    height: 700px;
+}
+
+.simulation .container h3{
+    color: black;
+    font-size: 23px;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.simulation .container .form{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color:  rgb(116, 199, 254,0.3);
+    height: 260px;
+    border-radius: 25px;
+}
+
+.simulation .container .form .label{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-size: 21px;
+}
+
+.simulation .container .form label{
+    padding-right: 35px;
+}
+
+.simulation .container .form input{
+    width: 50%;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    padding-right: 10px;
+    border-bottom: 3px solid grey ;
+}
+
+.form .button_div{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20px;
+    height: 45px;
+}
+
+.form button{
+    background-color: rgb(116, 199, 254);
+    /* color: black; */
+    /* margin-top: -100px; */
+    margin-top: 10px;
+    margin-left: 25%;
+    height: 30px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.form button:hover{
+    background-color: black;
+    color: white;
+}
+
+.container .answer_output{
+    /* border: 2px solid red ; */
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container .answer{
+    border: 1px solid black;
+}
+
+.container td , th {
+    border: 1px solid black;
+}
+
+.container .table{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: 25px 0px 25px 0px;
+    margin-left: 7.5%;
+}
+
+.container .table h3{
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 3px 2px 5px rgb(116, 199, 254);
+    margin-top: 20px;
+}
+
+.container .table table{
+    height: 125px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+}
+.container .table td , th{
+    border: 1px solid black;
+    color: black;
+    border-collapse: collapse;
+}
+
+.container .answer_output table{
+    width: 100%;
+    color: black;
+}
+
+.container .answer_output td , th {
+    text-align: center;
+    padding: 5px;
+}
+
+.container .box{
+    background-color:  rgb(116, 199, 254,0.3);
+    margin-top: 25px;
+    /* border: 2px solid red; */
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    height: 300px;
+}

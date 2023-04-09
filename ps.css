@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+   
+    width: 35%;
+    margin-left: 5%;
+}
+
+.navbar{
+    margin-left: 60%;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priority Preemptive Scheduling - About</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="opr_sim.css"> -->
+    <link rel="stylesheet" href="opr_about.css">
+    <link rel="stylesheet" href="ps_about.css">
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="priority_about.html">Priority Preemptive Scheduling - About</a></h1>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="priority.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="priority_about.html">About</a></li>
+              <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="priority.html">Priority Scheduling</a></li>
+                  <li><a href="peterson.html">Peterson's Solution</a></li>
+                  <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+                  <li><a href="optimal.html">Optimal Page Replacement</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="priority_sim.html" >Simulate</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+      </header><!-- End Header -->
+      <hr>
+
+      <section id="info" class="info">
+        <div class="left">
+            <h3>Priority Preemptive Scheduling</h3>
+            <p><b>Preemptive Priority CPU Scheduling Algorithm </b> is a pre-emptive method of CPU scheduling algorithm that works based on the priority of a process. In this algorithm, the scheduler schedules the tasks to work as per the priority, which means that a higher priority process should be executed first. In case of any conflict, i.e., when there is more than one process with equal priorities, then the pre-emptive priority CPU scheduling algorithm works on the basis of FCFS (First Come First Serve) algorithm.
+                <br><br>
+                Preemptive Priority CPU Scheduling Algorithm uses a rank-based system to define a rank for each process, where lower rank processes have higher priority and higher rank processes have lower priority. For instance, if there are 10 processes to be executed using this Preemptive Algorithm, then process with rank 1 will have the highest priority, the process with rank 2 will have comparatively lesser priority, and process with rank 10 will have least priority.
+            </p>
+            <div class="ad">
+                <h4>Advantages</h4>
+                <p>Priority Preemptive Scheduling Algorithm consists following advantages :
+                <ul>
+                   <li>Preemptive scheduling method is more robust, approach so one process cannot monopolize the CPU</li>
+                   <li>Choice of running task reconsidered after each interruption.</li> 
+                    <li>Each event cause interruption of running tasks</li> 
+                    <li>The OS makes sure that CPU usage is the same by all running process.</li> 
+                    <li>In this, the usage of CPU is the same, i.e., all the running processes will make use of CPU equally.</li> 
+                    <li>This scheduling method also improvises the average response time.</li> 
+                    <li>Preemptive Scheduling is beneficial when we use it for the multi-programming environment.</li> 
+                </ul>
+                </p>
+            </div>
+            <div class="dis">
+                <h4>Dis-Advantages</h4>
+                <p>Priority Preemptive Scheduling Algorithm consists following disadvantages : 
+                    <ul>
+                  <li>Need limited computational resources for Scheduling.</li> 
+                   <li>Takes a higher time by the scheduler to suspend the running task, switch the context, and dispatch the new incoming task.</li>
+                   <li>The process which has low priority needs to wait for a longer time if some high priority processes arrive continuously.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="ps_about_info.jpg" alt="">
+        </div>
+  </section>
+
+
+  <script src="ps.js"></script>
+</body>
+</html>

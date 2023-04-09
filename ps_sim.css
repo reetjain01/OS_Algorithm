@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50%;
+    margin-left: 2%;
+}
+
+.navbar{
+    margin-left: 70%;
+}
+
+
+
+.simulation .container .form{
+    height: 400px;
+}
+
+.simulation .container {
+    height: 1250px;
+}
+
+.simulation .container .form .button_div{
+    width: 50%;
+}
+
+.simulation .container .form button{
+    margin-left: 10%;
+}
+
+.simulation .container .box{
+    height: 1200px;
+}
+
+.simulation .container .box h4{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.simulation .container .box .processTable{
+    margin-top: 25px;
+    width: 50%;
+    margin-left: 25%;
+    height: 150px;
+}
+
+.simulation .container .box .table table td ,th{
+    /* padding: 3px; */
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.simulation .container .box .resultTable1 table , tr , td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* width: 85%; */
+    margin-left: 4%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.simulation .container .box .GanttChart1{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 475px;
+}
+
+.simulation .container .box .GanttChart1 .box1{
+    /* border: 2px solid black; */
+    height: 175px;
+    padding: 15px;
+    display: flex;
+
+}
+
+.simulation .container .box .GanttChart1 .box1 .avgwt{
+    color:black;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 35%;
+    height: 40px;
+    font-weight: 700;
+}
+
+.simulation .container .box .GanttChart1 .box1 #avgWaitTime{
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px black;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    margin-top: 18px;
+   margin-left: 20%;
+   padding: 6px;
+}
+
+.simulation .container .box .GanttChart1 .box1 .avgtat{
+    color:black;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    margin-top: 95px;
+    margin-left: -91%;
+    /* margin-right: 50px; */
+    width: 35%;
+    height: 40px;  
+    font-weight: 700; 
+}
+
+.simulation .container .box .GanttChart1 .box1 #avgTATime{
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px 2px black;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 20%;
+    margin-right: 5%;
+    padding: 5px;
+}
+
+
+.simulation .container .box .GanttChart1 .box2{
+    /* border: 2px solid red; */
+    height: 200px;
+}
+
+.simulation .container .box .GanttChart1 .box2 #GanttChart{
+    color: black;
+    width: 75%;
+    margin-left: 12.5%;
+    border-collapse: collapse;
+    border: 2px solid rgb(8, 68, 88);
+    background-color: rgb(212, 212, 232);
+    font-size: 20px;
+    height: 120px;
+    font-weight: 600;
+}   
+
+
+
+

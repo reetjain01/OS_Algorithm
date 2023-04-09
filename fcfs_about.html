@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCFS Disk Scheduling - About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="opr_about.css">
+    <link rel="stylesheet" href="fcfs.css">
+    <link rel="stylesheet" href="fcfs_about.css">
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="optimal_about.html">FCFS Disk Scheduling - About</a></h1>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="fcfs.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="fcfs_about.html">About</a></li>
+              <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="priority.html">Priority Scheduling</a></li>
+                  <li><a href="peterson.html">Peterson's Solution</a></li>
+                  <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+                  <li><a href="optimal.html">Optimal Page Replacement</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="fcfs_sim.html" >Simulate</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+      </header><!-- End Header -->
+      <hr>
+
+      <section id="info" class="info">
+        <div class="left">
+            <h3>FCFS Disk Scheduling</h3>
+            <p><b>Disk Scheduling Algorithm</b> is an algorithm that keeps and manages input and output requests arriving for the disk in a system. As we know, for executing any process memory is required. And when it comes to accessing things from a hard disk, the process becomes very slow as a hard disk is the slowest part of our computer. There are various methods by which the process can be scheduled and can be done efficiently.
+            <br><br>
+            <b>FCFS </b> stands for 'first-come-first-serve'. As the name suggests, the request which comes first will be processed first and so on. The requests coming to the disk are arranged in a proper sequence as they arrive. Since every request is processed in this algorithm, so there is no chance of 'starvation'.
+        </p>
+            <div class="ad">
+                <h4>Advantages</h4>
+                <p>FCFS Disk Scheduling Algorithm consists following advantages :
+                <ul>
+                   <li>First Come First Serve algorithm has a very simple logic, it executes the process requests one by one in the sequence they arrive.</li>
+                   <li>Thus, First Come First Serve is very simple and easy to understand and implement.</li> 
+                    <li>In FCFS eventually, each and every process gets a chance to execute, so no starvation occur.</li> 
+                </ul>
+                </p>
+            </div>
+            <div class="dis">
+                <h4>Dis-Advantages</h4>
+                <p>FCFS Disk Scheduling algorithm consists following disadvantages :
+                    <ul>
+                  <li>This scheduling algorithm is nonpreemptive, which means the process can’t be stopped in middle of execution and will run it’s full course.</li> 
+                   <li>FCFS being a nonpreemptive scheduling algorithm, the short processes which are at the back of the queue have to wait for the long process at the front to finish</li>
+                   <li>The throughput of FCFS is not very efficient.</li>
+                   <li>FCFS is implemented on small systems only where input-output efficiency is not of utmost importance..</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="fcfs_about_info.jpg" alt="">
+        </div>
+  </section>
+      
+      <script src="fcfs.js"></script>
+</body>
+</html>

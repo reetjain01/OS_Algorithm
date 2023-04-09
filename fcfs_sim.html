@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCFS Disk Scheduling - Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="opr_sim.css">
+    <link rel="stylesheet" href="fcfs_sim.css">
+</head>
+<body>
+
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <h1><a href="optimal_sim.html">FCFS Disk Scheduling - Simualtion</a></h1>
+          </div>
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="fcfs.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="fcfs_about.html">About</a></li>
+              <li class="dropdown"><a href="index.html#algorithm"><span>Algorithm ▼</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="priority.html">Priority Scheduling</a></li>
+                  <li><a href="peterson.html">Peterson's Solution</a></li>
+                  <li><a href="fcfs.html">FCFS Disk Scheduling</a></li>
+                  <li><a href="optimal.html">Optimal Page Replacement</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+              <!-- <li><a class="getstarted scrollto" href="optimal_sim.html" >Simulate</a></li> -->
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+      </header><!-- End Header -->
+      <hr>
+
+      <section class="simulation" id="simulation">
+        <div class="container">
+            <h3>This algorithm entertains requests in the order they arrive in the disk queue like FIFO operation on queue. You will get to know more about this algorithm by exploring through simulation :</h3>
+            <div class="form">
+                <div class="label">
+                    <label for="" id="requestSequence">Request Sequence : </label>
+                    <input type="text" id="requestSequenceInput" placeholder="Enter Request Sequence ">
+                </div> 
+                <br>
+                <div class="label">
+                    <label for="" id="headPosition" style="padding-left: 35px;">Head Position : </label>
+                    <input type="number" id="headPositionInput" placeholder="Enter Position of Head">
+                </div> 
+                <br>
+                <div class="button_div">
+                    <button id="calculate" type= "button">CALCULATE</button>
+                    <button type="button" id="reset" >RESET</button> 
+                </div>
+            </div>
+            <div class="box" id="box" style="visibility: hidden;">
+            <div class="table" id="table">
+                <table id="processTable">
+                  <tr>
+                    <th>Total Seek Operation</th>
+                  </tr>
+                </table>
+                <!-- <button type="button" id="showGraph">Graph</button> -->
+                </div>
+        <div class="graph" id="graph">
+          <h4 id="heading" >GRAPH</h4>
+          <canvas id = "myChart"></canvas>
+      </div>
+    </div> 
+        </div>
+        
+
+            
+      </section>
+      <script src = "https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="fcfs.js"></script>
+</body>
+</html>
